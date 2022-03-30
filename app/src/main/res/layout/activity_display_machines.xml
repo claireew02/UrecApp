@@ -4,17 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".DisplayMachines">
 
-    <Button
-        android:id="@+id/Arms"
-        android:layout_width="120dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="55dp"
-        android:onClick="sendArms"
-        android:text="@string/arms"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ArmMachines"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="200dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
