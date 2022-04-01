@@ -21,7 +21,7 @@ public class DisplayMachines extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Intent arms = getIntent();
+        getIntent();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_machines);
         populateMachinesList();
@@ -30,14 +30,14 @@ public class DisplayMachines extends AppCompatActivity {
     }
 
     private void populateMachinesList(){
-        ListView listView = (ListView) findViewById(R.id.lvMachines);
         // Construct the data source
-        ArrayList<Machine> arrayOfMachines = new ArrayList<Machine>();
+        ArrayList<Machine> arrayOfMachines = new ArrayList<>();
         // this should add a machine to the list of machines to display
         arrayOfMachines.add(new Machine("Dumbbells", MuscleGroup.ARMS, 2));
         // Create the adapter to convert the array to views
         MachinesAdapter adapter = new MachinesAdapter(this, arrayOfMachines);
         // Attach the adapter to a ListView
+        ListView listView = (ListView) findViewById(R.id.lvMachines);
         listView.setAdapter(adapter);
     }
 
