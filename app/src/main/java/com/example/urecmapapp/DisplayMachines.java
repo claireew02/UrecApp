@@ -30,20 +30,21 @@ public class DisplayMachines extends AppCompatActivity {
     }
 
     private void populateMachinesList(){
-        // Construct the data source
-        ArrayList<Machine> arrayOfUsers = new ArrayList<Machine>();
-        // Create the adapter to convert the array to views
-        MachinesAdapter adapter = new MachinesAdapter(this, arrayOfUsers);
-        // Attach the adapter to a ListView
         ListView listView = (ListView) findViewById(R.id.lvMachines);
+        // Construct the data source
+        ArrayList<Machine> arrayOfMachines = new ArrayList<Machine>();
+        // this should add a machine to the list of machines to display
+        arrayOfMachines.add(new Machine("Dumbbells", MuscleGroup.ARMS, 2));
+        // Create the adapter to convert the array to views
+        MachinesAdapter adapter = new MachinesAdapter(this, arrayOfMachines);
+        // Attach the adapter to a ListView
         listView.setAdapter(adapter);
     }
 
     public class MachinesAdapter extends ArrayAdapter<Machine> {
         public MachinesAdapter(Context context, ArrayList<Machine> machines) {
-            super(context, 0, machines);
+            super(context, R.layout.item_machine, machines);
         }
-
 
         public View getView(int position, View convertView, ViewGroup parent) {
             // Get the data item for this position
