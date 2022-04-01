@@ -2,6 +2,8 @@ package com.example.urecmapapp;
 
 import static java.security.AccessController.getContext;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -21,31 +23,34 @@ public class DisplayMachines extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Intent arms = getIntent();
+        getIntent();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_machines);
         populateMachinesList();
+
+
 
 
     }
 
     private void populateMachinesList(){
         // Construct the data source
-        ArrayList<Machine> arrayOfUsers = new ArrayList<Machine>();
+        ArrayList<Machine> arrayOfMachines;
+        arrayOfMachines = Machine.getMachines();
         // Create the adapter to convert the array to views
-        MachinesAdapter adapter = new MachinesAdapter(this, arrayOfUsers);
+        MachinesAdapter adapter = new MachinesAdapter(this, arrayOfMachines);
         // Attach the adapter to a ListView
         ListView listView = (ListView) findViewById(R.id.lvMachines);
         listView.setAdapter(adapter);
     }
 
     public class MachinesAdapter extends ArrayAdapter<Machine> {
-        public MachinesAdapter(Context context, ArrayList<Machine> machines) {
+        public MachinesAdapter(@NonNull Context context, @NonNull ArrayList<Machine> machines) {
             super(context, 0, machines);
         }
 
 
-        public View getView(int position, View convertView, ViewGroup parent) {
+        public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
             // Get the data item for this position
             Machine machine = getItem(position);
             // Check if an existing view is being reused, otherwise inflate the view

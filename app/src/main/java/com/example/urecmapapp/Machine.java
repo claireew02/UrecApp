@@ -1,5 +1,7 @@
 package com.example.urecmapapp;
 
+import java.util.ArrayList;
+
 enum MuscleGroup {
     ARMS,
     BACK,
@@ -27,5 +29,14 @@ public class Machine {
 
     public int getMachineFloor(){
         return machineFloor;
+    }
+
+    public static ArrayList<Machine> getMachines(){
+        ArrayList<Machine> machines = new ArrayList<>();
+        machines.add(new Machine("Please Work", MuscleGroup.ARMS,6));
+        machines.add(new Machine("Please Work", MuscleGroup.BACK,6));
+        machines.add(new Machine("Please Work", MuscleGroup.LEGS,6));
+
+        return machines;
     }
 }

@@ -12,8 +12,8 @@
         android:layout_height="100dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="55dp"
-        android:onClick="sendArms"
         android:text="@string/arms"
+        android:onClick="sendArms"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
