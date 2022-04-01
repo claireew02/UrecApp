@@ -4,16 +4,4 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DisplayMachines">
-
-    <Button
-        android:id="@+id/Button_Dumbbells"
-        android:layout_width="130dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="55dp"
-        android:onClick="displayMachineData"
-        android:text="Dumbbells"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    tools:context=".DisplayMachines"/>

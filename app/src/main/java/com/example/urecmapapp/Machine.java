@@ -16,4 +16,16 @@ public class Machine {
         this.machineMuscleGroup = machineMuscleGroup;
         this.machineFloor = machineFloor;
     }
+
+    public String getMachineName(){
+        return machineName;
+    }
+
+    public MuscleGroup getMachineMuscleGroup(){
+        return machineMuscleGroup;
+    }
+
+    public int getMachineFloor(){
+        return machineFloor;
+    }
 }
