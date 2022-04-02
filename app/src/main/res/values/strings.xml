@@ -1,5 +1,30 @@
 <resources>
     <string name="app_name">Urec Map App</string>
     <string name="arms">Arms</string>
+    <string name="dumbbells">Dumbbells</string>
+    <string name="seated_dips">Seated Dips</string>
+    <string name="kettlebells">Kettlebells</string>
+    <string name="arm_curl_technogym">Arm Curl (TechnoGym)</string>
+    <string name="dual_action_pulleys_technogym">Dual Action Pulleys (TechnoGym)</string>
+    <string name="multi_jungle_station">Multi-Jungle Station</string>
+    <string name="locationDumbbells">Location</string>
+    <string name="locationSeatedDips">Location</string>
+    <string name="locationKettlebells">Location</string>
+    <string name="locationArmCurl">Location</string>
+    <string name="locationDualActionPulley">Location</string>
+    <string name="locationMultiJungleStation">Location</string>
+    <string name="first_floor">First Floor</string>
+    <string name="dumbbells_floor_1">Dumbbells: Floor 1</string>
+    <string name="dumbbells_location">Dumbbells Location</string>
+    <string name="dualActionPulley_floor_1">Dual Action Pulley: \nFloor 1</string>
+    <string name="dualActionPulley_location">Dual Action Pulley Location</string>
+    <string name="kettlebells_floor_1">Kettlebells: Floor 1</string>
+    <string name="kettlebells_location">Kettlebells Location</string>
+    <string name="multi_jungle_station_floor_1">Multi Jungle Station: \nFloor 1</string>
+    <string name="multi_jungle_station_location">Multi Jungle Station Location</string>
+    <string name="seated_dips_floor_1">Seated Dips: Floor 1</string>
+    <string name="seated_dips_location">Seated Dips Location</string>
+    <string name="arm_curls_floor_1">Arm Curls: Floor 1</string>
+    <string name="arm_curls_location">Arm Curls Location</string>
 
 </resources>

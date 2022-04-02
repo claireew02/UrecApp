@@ -5,12 +5,19 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1445" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1445" />
-        <entry key="app/src/main/res/layout/activity_display_machines.xml" value="0.11550151975683891" />
+        <entry key="app/src/main/res/layout/activity_display_arm_curls.xml" value="0.11220871327254306" />
+        <entry key="app/src/main/res/layout/activity_display_dual_action_pulleys.xml" value="0.11574074074074074" />
+        <entry key="app/src/main/res/layout/activity_display_dumbbells.xml" value="0.10092592592592593" />
+        <entry key="app/src/main/res/layout/activity_display_kettlebells.xml" value="0.11574074074074074" />
+        <entry key="app/src/main/res/layout/activity_display_machines.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_display_machines_test.xml" value="0.19234924316406254" />
         <entry key="app/src/main/res/layout/activity_display_message.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_machine_data.xml" value="0.17291666666666666" />
-        <entry key="app/src/main/res/layout/activity_machine_list.xml" value="0.146875" />
+        <entry key="app/src/main/res/layout/activity_display_multi_jungle_station.xml" value="0.11574074074074074" />
+        <entry key="app/src/main/res/layout/activity_display_seated_dips.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_machine_data.xml" value="0.14444444444444443" />
+        <entry key="app/src/main/res/layout/activity_machine_list.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.15936737060546877" />
-        <entry key="app/src/main/res/layout/item_machine.xml" value="0.146875" />
+        <entry key="app/src/main/res/layout/item_machine.xml" value="0.15280456542968748" />
       </map>
     </option>
   </component>

@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UrecMapApp">
         <activity
+            android:name=".DisplayMultiJungleStation"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayDualActionPulleys"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayArmCurls"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayKettlebells"
+            android:exported="false" />
+        <activity
+            android:name=".DisplaySeatedDips"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayDumbbells"
+            android:exported="false" />
+        <activity
             android:name=".DisplayMachines"
             android:parentActivityName=".MainActivity">
 

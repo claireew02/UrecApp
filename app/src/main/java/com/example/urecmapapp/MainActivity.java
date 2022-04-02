@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    //send muscle to next page of machines
+    //method to display arm machines
     public void sendArms(View view) {
         Intent arms = new Intent(this, DisplayMachines.class);
         startActivity(arms);
