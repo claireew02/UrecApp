@@ -10,28 +10,63 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UrecMapApp">
         <activity
-            android:name=".DisplayMultiJungleStation"
+            android:name=".DisplayShoulderMachines"
             android:exported="false" />
+        <activity
+            android:name=".DisplayBackMachines"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayLegMachines"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".DisplayMultiJungleStation"
+            android:parentActivityName=".DisplayArmMachines">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayArmMachines" />
+        </activity>
         <activity
             android:name=".DisplayDualActionPulleys"
-            android:exported="false" />
+            android:parentActivityName=".DisplayArmMachines">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayArmMachines" />
+        </activity>
         <activity
             android:name=".DisplayArmCurls"
-            android:exported="false" />
+            android:parentActivityName=".DisplayArmMachines">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayArmMachines" />
+        </activity>
         <activity
             android:name=".DisplayKettlebells"
-            android:exported="false" />
+            android:parentActivityName=".DisplayArmMachines">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayArmMachines" />
+        </activity>
         <activity
             android:name=".DisplaySeatedDips"
-            android:exported="false" />
+            android:parentActivityName=".DisplayArmMachines">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayArmMachines" />
+        </activity>
         <activity
             android:name=".DisplayDumbbells"
-            android:exported="false" />
+            android:parentActivityName=".DisplayArmMachines">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayArmMachines" />
+        </activity>
         <activity
-            android:name=".DisplayMachines"
+            android:name=".DisplayArmMachines"
             android:parentActivityName=".MainActivity">
-
-            <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

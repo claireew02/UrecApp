@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Urec Map App</string>
     <string name="arms">Arms</string>
+    <string name="legs">Legs</string>
+    <string name="back">Back</string>
+    <string name="shoulders">Shoulders</string>
     <string name="dumbbells">Dumbbells</string>
     <string name="seated_dips">Seated Dips</string>
     <string name="kettlebells">Kettlebells</string>

@@ -17,4 +17,38 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/Legs"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="55dp"
+        android:onClick="sendLegs"
+        android:text="@string/legs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="230dp"
+        android:onClick="sendBack"
+        android:text="@string/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Shoulders"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="230dp"
+        android:onClick="sendShoulders"
+        android:text="@string/shoulders"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
