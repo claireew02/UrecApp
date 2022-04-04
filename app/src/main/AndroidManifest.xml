@@ -10,69 +10,105 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UrecMapApp">
         <activity
-            android:name=".DisplayShoulderMachines"
+            android:name=".ShoulderMachineShoulderRaiseMachine"
             android:exported="false" />
         <activity
-            android:name=".DisplayBackMachines"
+            android:name=".ShoulderMachineShoulderPress"
             android:exported="false" />
         <activity
-            android:name=".DisplayLegMachines"
-            android:parentActivityName=".MainActivity">
+            android:name=".ShoulderMachineMilitaryPress"
+            android:exported="false" />
+        <activity
+            android:name=".BackMachinePecDecMachine"
+            android:exported="false" />
+        <activity
+            android:name=".BackMachineRowers"
+            android:exported="false" />
+        <activity
+            android:name=".BackMachinePullUpBar"
+            android:exported="false" />
+        <activity
+            android:name=".CableColumn"
+            android:exported="false" />
+        <activity
+            android:name=".LegMachineCalfRaises"
+            android:exported="false" />
+        <activity
+            android:name=".LegMachineLegExtensions"
+            android:exported="false" />
+        <activity
+            android:name=".LegMachineLegCurls"
+            android:exported="false" />
+        <activity
+            android:name=".PowerRack"
+            android:exported="false" />
+        <activity
+            android:name=".LegMachineLegPress"
+            android:exported="false" />
+        <activity
+            android:name=".MuscleShoulderMachines"
+            android:exported="false" />
+        <activity
+            android:name=".MuscleBackMachines"
+            android:exported="false" />
+        <activity
+            android:name=".MuscleLegMachines"
+            android:parentActivityName=".MuscleScreen">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".MuscleScreen" />
         </activity>
         <activity
-            android:name=".DisplayMultiJungleStation"
-            android:parentActivityName=".DisplayArmMachines">
+            android:name=".ArmMachineMultiJungleStation"
+            android:parentActivityName=".MuscleArmMachines">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".DisplayArmMachines" />
+                android:value=".MuscleArmMachines" />
         </activity>
         <activity
-            android:name=".DisplayDualActionPulleys"
-            android:parentActivityName=".DisplayArmMachines">
+            android:name=".ArmMachineDualActionPulleys"
+            android:parentActivityName=".MuscleArmMachines">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".DisplayArmMachines" />
+                android:value=".MuscleArmMachines" />
         </activity>
         <activity
-            android:name=".DisplayArmCurls"
-            android:parentActivityName=".DisplayArmMachines">
+            android:name=".ArmMachineArmCurls"
+            android:parentActivityName=".MuscleArmMachines">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".DisplayArmMachines" />
+                android:value=".MuscleArmMachines" />
         </activity>
         <activity
-            android:name=".DisplayKettlebells"
-            android:parentActivityName=".DisplayArmMachines">
+            android:name=".ArmMachineKettlebells"
+            android:parentActivityName=".MuscleArmMachines">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".DisplayArmMachines" />
+                android:value=".MuscleArmMachines" />
         </activity>
         <activity
-            android:name=".DisplaySeatedDips"
-            android:parentActivityName=".DisplayArmMachines">
+            android:name=".ArmMachineSeatedDips"
+            android:parentActivityName=".MuscleArmMachines">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".DisplayArmMachines" />
+                android:value=".MuscleArmMachines" />
         </activity>
         <activity
-            android:name=".DisplayDumbbells"
-            android:parentActivityName=".DisplayArmMachines">
+            android:name=".Dumbbells"
+            android:parentActivityName=".MuscleArmMachines">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".DisplayArmMachines" />
+                android:value=".MuscleArmMachines" />
         </activity>
         <activity
-            android:name=".DisplayArmMachines"
-            android:parentActivityName=".MainActivity">
+            android:name=".MuscleArmMachines"
+            android:parentActivityName=".MuscleScreen">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".MuscleScreen" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".MuscleScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

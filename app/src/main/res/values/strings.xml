@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Urec Map App</string>
+
     <string name="arms">Arms</string>
     <string name="legs">Legs</string>
     <string name="back">Back</string>
@@ -10,12 +11,40 @@
     <string name="arm_curl_technogym">Arm Curl (TechnoGym)</string>
     <string name="dual_action_pulleys_technogym">Dual Action Pulleys (TechnoGym)</string>
     <string name="multi_jungle_station">Multi-Jungle Station</string>
+    <string name="leg_press">Leg Press</string>
+    <string name="power_rack">Power Rack</string>
+    <string name="leg_curls">Leg Curls</string>
+    <string name="leg_extensions">Leg Extensions</string>
+    <string name="calf_raises">Calf Raises</string>
+    <string name="cable_column">Cable Column</string>
+    <string name="pull_up_bar">Pull Up Bar</string>
+    <string name="rowers">Rowers</string>
+    <string name="pec_dec_machines">Pec Dec Machines</string>
+    <string name="military_press">Military Press</string>
+    <string name="shoulder_press">Shoulder Press</string>
+    <string name="shoulder_raise_machine">Shoulder Raise Machine</string>
+
+
     <string name="locationDumbbells">Location</string>
     <string name="locationSeatedDips">Location</string>
     <string name="locationKettlebells">Location</string>
     <string name="locationArmCurl">Location</string>
     <string name="locationDualActionPulley">Location</string>
     <string name="locationMultiJungleStation">Location</string>
+    <string name="locationLegPress">Location</string>
+    <string name="locationPowerRack">Location</string>
+    <string name="locationLegCurls">Location</string>
+    <string name="locationLegExtensions">Location</string>
+    <string name="locationCalfRaises">Location</string>
+    <string name="locationCableColumn">Location</string>
+    <string name="locationPullUpBar">Location</string>
+    <string name="locationRowers">Location</string>
+    <string name="locationPecDecMachine">Location</string>
+    <string name="locationMilitaryPress">Location</string>
+    <string name="locationShoulderPress">Location</string>
+    <string name="locationShoulderRaiseMachine">Location</string>
+
+
     <string name="first_floor">First Floor</string>
     <string name="dumbbells_floor_1">Dumbbells: Floor 1</string>
     <string name="dumbbells_location">Dumbbells Location</string>
@@ -29,5 +58,6 @@
     <string name="seated_dips_location">Seated Dips Location</string>
     <string name="arm_curls_floor_1">Arm Curls: Floor 1</string>
     <string name="arm_curls_location">Arm Curls Location</string>
+
 
 </resources>

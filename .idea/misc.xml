@@ -17,10 +17,18 @@
         <entry key="app/src/main/res/layout/activity_display_multi_jungle_station.xml" value="0.11574074074074074" />
         <entry key="app/src/main/res/layout/activity_display_seated_dips.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_display_shoulder_machines.xml" value="0.10185185185185185" />
+        <entry key="app/src/main/res/layout/activity_leg_machine_leg_press.xml" value="0.19746376811594202" />
         <entry key="app/src/main/res/layout/activity_machine_data.xml" value="0.14444444444444443" />
         <entry key="app/src/main/res/layout/activity_machine_list.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17256011962890627" />
+        <entry key="app/src/main/res/layout/armmachines.xml" value="0.19746376811594202" />
+        <entry key="app/src/main/res/layout/backmachine_cable_column.xml" value="0.19746376811594202" />
+        <entry key="app/src/main/res/layout/backmachine_pull_up_bar.xml" value="0.19746376811594202" />
+        <entry key="app/src/main/res/layout/backmachines.xml" value="0.19746376811594202" />
         <entry key="app/src/main/res/layout/item_machine.xml" value="0.15280456542968748" />
+        <entry key="app/src/main/res/layout/legmachines.xml" value="0.19746376811594202" />
+        <entry key="app/src/main/res/layout/muscles.xml" value="0.19746376811594202" />
+        <entry key="app/src/main/res/layout/shouldermachines.xml" value="0.19746376811594202" />
       </map>
     </option>
   </component>
