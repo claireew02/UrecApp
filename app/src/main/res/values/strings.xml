@@ -46,6 +46,7 @@
 
 
     <string name="first_floor">First Floor</string>
+    <string name="second_floor">Second Floor</string>
     <string name="dumbbells_floor_1">Dumbbells: Floor 1</string>
     <string name="dumbbells_location">Dumbbells Location</string>
     <string name="dualActionPulley_floor_1">Dual Action Pulley: \nFloor 1</string>
@@ -58,6 +59,29 @@
     <string name="seated_dips_location">Seated Dips Location</string>
     <string name="arm_curls_floor_1">Arm Curls: Floor 1</string>
     <string name="arm_curls_location">Arm Curls Location</string>
-
+    <string name="pec_dec_floor_2">Pec Dec: Floor 2</string>
+    <string name="pec_dec_location">Pec Dec Location</string>
+    <string name="pull_up_bar_floor_2">Pull Up Bar: Floor 2</string>
+    <string name="pull_up_bar_location">Pull Up Bar Location</string>
+    <string name="rowers_floor_2">Rowers: Floor 2</string>
+    <string name="rowers_location">Rowers Location</string>
+    <string name="cable_column_floor_2">Cable Column: Floor 2</string>
+    <string name="cable_column_location">Cable Column Location</string>
+    <string name="calf_raises_floor_1">Calf Raises: Floor 1</string>
+    <string name="calf_raises_location">Calf Raises Location</string>
+    <string name="leg_curls_floor_1">Leg Curls: Floor 1</string>
+    <string name="leg_curls_location">Leg Curls Location</string>
+    <string name="leg_extensions_floor_1">Leg Extensions: Floor 1</string>
+    <string name="leg_extensions_location">Leg Extensions Location</string>
+    <string name="leg_press_floor_1">Leg Press: Floor 1</string>
+    <string name="leg_press_location">Leg Press Location</string>
+    <string name="military_press_floor_1">Military Press: Floor 1</string>
+    <string name="military_press_location">Military Press Location</string>
+    <string name="shoulder_press_floor_1">Shoulder Press: Floor 1</string>
+    <string name="shoulder_press_location">Shoulder Press Location</string>
+    <string name="shoulder_raises_floor_2">Shoulder Raises: Floor 2</string>
+    <string name="shoulder_raises_location">Shoulder Raises Location</string>
+    <string name="power_rack_floor_1">Power Rack: Floor 1</string>
+    <string name="power_rack_location">Power Rack Location</string>
 
 </resources>

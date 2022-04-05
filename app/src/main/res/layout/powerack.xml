@@ -5,5 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PowerRack">
+    <ImageView
+        android:id="@+id/PowerRackLocation"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/power_rack_location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PowerRackText"
+        app:srcCompat="@drawable/powerracks" />
+
+    <ImageView
+        android:id="@+id/FirstFloor"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/first_floor"
+        app:layout_constraintBottom_toTopOf="@+id/PowerRackText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/firstfloor" />
+
+    <TextView
+        android:id="@+id/PowerRackText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/power_rack_floor_1"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/PowerRackLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FirstFloor" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
