@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.view.View;
 
 
-
 public class MuscleArmMachines extends AppCompatActivity {
 
     @Override
