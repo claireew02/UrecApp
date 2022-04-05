@@ -10,9 +10,12 @@
         <entry key="app/src/main/res/layout/activity_machine_data.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/layout/activity_machine_list.xml" value="0.146875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.15936737060546877" />
+        <entry key="app/src/main/res/layout/armmachines.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/backmachines.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_machine.xml" value="0.146875" />
-        <entry key="app/src/main/res/layout/legmachines.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/legmachines.xml" value="0.3203323364257813" />
         <entry key="app/src/main/res/layout/muscles.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/shouldermachines.xml" value="0.1644021739130435" />
       </map>
     </option>
   </component>
