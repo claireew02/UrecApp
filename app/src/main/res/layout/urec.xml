@@ -15,9 +15,21 @@
         android:text="Urec Info Here" />
 
     <TextView
-        android:id="@+id/urecText"
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:text="urecText" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="address" />
+
+    <TextView
+        android:id="@+id/phoneNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone numbers" />
 
 </LinearLayout>
