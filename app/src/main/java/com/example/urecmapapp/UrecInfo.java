@@ -5,6 +5,7 @@ public class UrecInfo {
     private static String name;
     private static String address;
     private static String phoneNumbers;
+    private static String websiteLink;
 
     private static final UrecInfo INSTANCE = new UrecInfo();
 
@@ -19,6 +20,7 @@ public class UrecInfo {
                 "Adventure Center  225-578-3431\n" +
                 "\n" +
                 "Inclement Weather Hotline  225-578-7246";
+        this.websiteLink = "https://www.lsuuniversityrec.com/about-index";
     }
 
     public static UrecInfo getInstance() {
@@ -35,5 +37,9 @@ public class UrecInfo {
 
     public static String getPhoneNumbers() {
         return phoneNumbers;
+    }
+
+    public static String getWebsiteLink() {
+        return websiteLink;
     }
 }

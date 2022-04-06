@@ -5,31 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#e3e4e5"
+    android:background="@drawable/urec_stock_image"
     tools:context=".Urec">
 
-    <TextView
-        android:id="@+id/tvPlan"
-        android:layout_width="match_parent"
-        android:layout_height="54dp"
-        android:text="Urec Info Here" />
 
     <TextView
         android:id="@+id/name"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:text="urecText" />
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="urecText"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/address"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="address" />
+        android:layout_height="172dp"
+        android:gravity="center"
+        android:text="address"
+        android:textColor="#FFFF"
+        android:textSize="10sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/phoneNumbers"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="phone numbers" />
+        android:layout_height="549dp"
+        android:gravity="center"
+        android:text="phone numbers"
+        android:textColor="#FFFF"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/websiteLink"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:gravity="center"
+        android:text="website link"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 </LinearLayout>

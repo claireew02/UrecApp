@@ -3,6 +3,7 @@ package com.example.urecmapapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
 public class Urec extends AppCompatActivity{
@@ -12,6 +13,7 @@ public class Urec extends AppCompatActivity{
     String name;
     String address;
     String phoneNumbers;
+    String websiteLink;
 
 
     @Override
@@ -33,8 +35,11 @@ public class Urec extends AppCompatActivity{
         TextView tvPhoneNumbers = (TextView) findViewById(R.id.phoneNumbers);
         tvPhoneNumbers.setText(phoneNumbers);
 
-
-
+        websiteLink = mUrecInfo.getWebsiteLink();
+        TextView tvWebsiteLink = (TextView) findViewById(R.id.websiteLink);
+        tvWebsiteLink.setText(websiteLink);
+        //this doesnt work lol
+        tvWebsiteLink.setMovementMethod(LinkMovementMethod.getInstance());
 
 
 
