@@ -84,4 +84,7 @@
     <string name="power_rack_floor_1">Power Rack: Floor 1</string>
     <string name="power_rack_location">Power Rack Location</string>
 
+    <string name="edit_message">Enter Your Name</string>
+    <string name="button_send">Send</string>
+
 </resources>

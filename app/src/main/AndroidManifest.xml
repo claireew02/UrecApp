@@ -9,48 +9,121 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UrecMapApp">
+
+        <activity
+            android:name=".UserDisplay"
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserPage" />
+        </activity>
+
+        <activity
+            android:name=".UserPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".ShoulderMachineShoulderRaiseMachine"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleShoulderMachines" />
+        </activity>
+
         <activity
             android:name=".ShoulderMachineShoulderPress"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleShoulderMachines" />
+        </activity>
+
         <activity
             android:name=".ShoulderMachineMilitaryPress"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleShoulderMachines" />
+        </activity>
+
         <activity
             android:name=".BackMachinePecDecMachine"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleBackMachines" />
+        </activity>
+
         <activity
             android:name=".BackMachineRowers"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleBackMachines" />
+        </activity>
+
         <activity
             android:name=".BackMachinePullUpBar"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleBackMachines" />
+        </activity>
+
         <activity
             android:name=".CableColumn"
             android:exported="false" />
         <activity
             android:name=".LegMachineCalfRaises"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleLegMachines" />
+        </activity>
         <activity
             android:name=".LegMachineLegExtensions"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleLegMachines" />
+        </activity>
         <activity
             android:name=".LegMachineLegCurls"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleLegMachines" />
+        </activity>
         <activity
             android:name=".PowerRack"
             android:exported="false" />
         <activity
             android:name=".LegMachineLegPress"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleLegMachines" />
+        </activity>
         <activity
             android:name=".MuscleShoulderMachines"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleScreen" />
+        </activity>
         <activity
             android:name=".MuscleBackMachines"
-            android:exported="false" />
+            android:parentActivityName=".UserPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleScreen" />
+        </activity>
         <activity
             android:name=".MuscleLegMachines"
             android:parentActivityName=".MuscleScreen">
@@ -109,12 +182,10 @@
         </activity>
         <activity
             android:name=".MuscleScreen"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:parentActivityName=".MuscleScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserDisplay" />
         </activity>
     </application>
 
