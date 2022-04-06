@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MuscleScreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/urec_background"
@@ -14,9 +15,9 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="55dp"
         android:alpha="0.93"
-        android:text="@string/arms"
-        android:textSize="20sp"
         android:onClick="sendArms"
+
+        android:text="@string/arms"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,8 +27,8 @@
         android:layout_height="120dp"
         android:layout_marginStart="220dp"
         android:layout_marginTop="55dp"
-        android:onClick="sendLegs"
         android:alpha="0.93"
+        android:onClick="sendLegs"
         android:text="@string/legs"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,8 +40,8 @@
         android:layout_height="120dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="230dp"
-        android:onClick="sendBack"
         android:alpha="0.93"
+        android:onClick="sendBack"
         android:text="@string/back"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,12 +53,31 @@
         android:layout_height="120dp"
         android:layout_marginStart="220dp"
         android:layout_marginTop="230dp"
-        android:onClick="sendShoulders"
         android:alpha="0.93"
+        android:onClick="sendShoulders"
         android:text="@string/shoulders"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UREC Info"
+        android:layout_gravity="right"
+        android:onClick="sendUser"
+        />
+    </androidx.appcompat.widget.Toolbar>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

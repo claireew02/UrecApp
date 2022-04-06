@@ -4,46 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1445" />
+        <entry key="app/src/main/res/drawable/background_urec.xml" value="0.18489685058593752" />
+        <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1445" />
-        <entry key="app/src/main/res/layout/activity_display_arm_curls.xml" value="0.11220871327254306" />
-        <entry key="app/src/main/res/layout/activity_display_back_machines.xml" value="0.10185185185185185" />
-        <entry key="app/src/main/res/layout/activity_display_dual_action_pulleys.xml" value="0.11574074074074074" />
-        <entry key="app/src/main/res/layout/activity_display_dumbbells.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_display_kettlebells.xml" value="0.11574074074074074" />
-        <entry key="app/src/main/res/layout/activity_display_leg_machines.xml" value="0.10185185185185185" />
-        <entry key="app/src/main/res/layout/activity_display_machines.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_display_machines_test.xml" value="0.19234924316406254" />
+        <entry key="app/src/main/res/drawable/mybuttonicon.xml" value="0.153" />
+        <entry key="app/src/main/res/layout/activity_display_machines.xml" value="0.11550151975683891" />
         <entry key="app/src/main/res/layout/activity_display_message.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_display_multi_jungle_station.xml" value="0.11574074074074074" />
-        <entry key="app/src/main/res/layout/activity_display_seated_dips.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_display_shoulder_machines.xml" value="0.10185185185185185" />
-        <entry key="app/src/main/res/layout/activity_leg_machine_leg_press.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/activity_machine_data.xml" value="0.14444444444444443" />
-        <entry key="app/src/main/res/layout/activity_machine_list.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17256011962890627" />
-        <entry key="app/src/main/res/layout/armmachine_arm_curls.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/armmachines.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/backmachine_cable_column.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/backmachine_pec_dec_machine.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/backmachine_pull_up_bar.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/backmachine_rowers.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/backmachines.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/cablecolumn.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/dumbbells.xml" value="0.11904761904761904" />
-        <entry key="app/src/main/res/layout/item_machine.xml" value="0.15280456542968748" />
-        <entry key="app/src/main/res/layout/legmachine_calf_raises.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/legmachine_leg_curls.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/legmachine_leg_extensions.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/legmachine_leg_press.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/legmachines.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/muscles.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/powerack.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/shouldermachine_military_press.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/shouldermachine_shoulder_press.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/shouldermachine_shoulder_raise_machine.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/shouldermachines.xml" value="0.19746376811594202" />
-        <entry key="app/src/main/res/layout/userdisplay.xml" value="0.11220871327254306" />
-        <entry key="app/src/main/res/layout/userpage.xml" value="0.19746376811594202" />
+        <entry key="app/src/main/res/layout/activity_machine_data.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/activity_machine_list.xml" value="0.146875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15936737060546877" />
+        <entry key="app/src/main/res/layout/app_bar.xml" value="0.24691643526488888" />
+        <entry key="app/src/main/res/layout/appbar.xml" value="0.11296859169199595" />
+        <entry key="app/src/main/res/layout/armmachines.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/backmachines.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_machine.xml" value="0.146875" />
+        <entry key="app/src/main/res/layout/legmachines.xml" value="0.3203323364257813" />
+        <entry key="app/src/main/res/layout/muscles.xml" value="0.22716064453125" />
+        <entry key="app/src/main/res/layout/shouldermachines.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/userpage.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/workout_plan.xml" value="0.1621376811594203" />
+        <entry key="app/src/main/res/menu/mymenu.xml" value="0.17083333333333334" />
       </map>
     </option>
   </component>
