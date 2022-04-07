@@ -10,7 +10,7 @@ public class UrecInfo {
     private static final UrecInfo INSTANCE = new UrecInfo();
 
     private UrecInfo() {
-        this.name = "Urec";
+        this.name = "LSU University Recreation";
         this.address = "102 Student Recreation Complex\n" +
                 "Baton Rouge, LA 70803";
         this.phoneNumbers = "Operations Desk  225-578-8601\n" +

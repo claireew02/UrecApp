@@ -12,31 +12,31 @@
     <TextView
         android:id="@+id/name"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="76dp"
         android:gravity="center"
         android:text="urecText"
         android:textColor="#FFFF"
-        android:textSize="18sp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/address"
         android:layout_width="match_parent"
-        android:layout_height="172dp"
+        android:layout_height="171dp"
         android:gravity="center"
         android:text="address"
         android:textColor="#FFFF"
-        android:textSize="10sp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/phoneNumbers"
         android:layout_width="match_parent"
         android:layout_height="549dp"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:text="phone numbers"
         android:textColor="#FFFF"
-        android:textSize="10sp"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
     <TextView
